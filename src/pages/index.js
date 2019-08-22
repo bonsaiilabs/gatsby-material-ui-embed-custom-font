@@ -8,9 +8,15 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>Regular</p>
+    <p style={{fontStyle: 'italic'}}>Regular Italic</p>
+
+    <h1>Bold</h1>
+    <h1 style={{fontStyle: 'italic'}}>Bold Italic</h1>
+
+    <h1 style={{fontWeight: '900'}}>Black</h1>
+    <h1 style={{fontWeight: '900', fontStyle: 'italic'}}>Black Italic</h1>
+
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
