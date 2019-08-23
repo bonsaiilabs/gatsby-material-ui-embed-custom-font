@@ -1,5 +1,5 @@
 ### Gatsby + Material-UI + Custom Font
-![Project Banner](https://imgur.com/download/FdBbXbP)
+![Project Banner](https://imgur.com/download/dEvVWM5)
 
 ### What is the output of this project
 ![Project Output](https://imgur.com/download/dMVGtiW)
