@@ -5,16 +5,37 @@
 ![Project Output](https://imgur.com/download/dMVGtiW)
 
 
-### Get the code
+### How to run?
+Get the code
 ```bash
 git clone git@github.com:bonsaiilabs/gatsby-embed-custom-font.git
 ```
 
-In this project we have made use of [Playfiar Display](https://fonts.google.com/specimen/Playfair+Display) font from `Google Fonts` as custom font.
+Install the dependencies
+```sh
+yarn
+```
+
+Develop locally
+```sh
+gatsby develop
+```
+
+Create Production Build
+```sh
+gatsby build
+```
+
+Deploy to [Surge](https://surge.sh)
+```sh
+surge public
+```
+**Note** You would need to create an account with `Surge`, but it is completely FREE to start with.
 
 ## What problem does this solve?
 If you are planning to use `Gatsby` for your existing project, but have custom font files, you can use this repository to learn how to perform such migration.  
 This problem is broken into 2 parts
+In this project we have made use of [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) font from `Google Fonts` as custom font.
 
 ### Part 1
 In the first part, we only show how to use the custom font files with Gatsby. You can do that by checking out the specific branch
