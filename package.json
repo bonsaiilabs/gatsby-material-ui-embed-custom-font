@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.5.1",
     "@material-ui/styles": "^4.3.3",
     "gatsby": "^2.13.73",
     "gatsby-image": "^2.2.10",
@@ -15,6 +16,8 @@
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-source-filesystem": "^2.1.11",
     "gatsby-transformer-sharp": "^2.2.7",
+    "install": "^0.13.0",
+    "npm": "^6.12.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
